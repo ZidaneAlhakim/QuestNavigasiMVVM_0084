@@ -1,4 +1,4 @@
-package com.example.pertemuan6.view
+package com.example.pert6.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
