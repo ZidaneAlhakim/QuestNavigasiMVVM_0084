@@ -2,5 +2,7 @@
     <string name="app_name">pert6</string>
     <string name="submit">Submit</string>
     <string name="back">Back</string>
+    <string name="nama_Lengkap">NAMA LENGKAP</string>
+    <string name="jenis_kelamin">JENIS KELAMIN</string>
 
 </resources>
