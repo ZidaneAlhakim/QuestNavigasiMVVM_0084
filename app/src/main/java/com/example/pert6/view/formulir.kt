@@ -1,6 +1,6 @@
 package com.example.pert6.view
 
-import android.R
+import com.example.pert6.R
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -53,7 +53,7 @@ fun FormIsian(
                 modifier = Modifier
                     .padding(top = 20.dp)
                     .width(250.dp),
-                label = { Text(text = stringResource(id = R.string.nama_lengkap)) },
+                label = { Text(text = stringResource(id = R.string.nama_Lengkap)) },
                 onValueChange = {},
             )
             HorizontalDivider(modifier = Modifier
@@ -90,6 +90,8 @@ fun FormIsian(
                     .padding(all = 25.dp),
                 onClick = OnSubmitBtnClick
             ) {
+                Text(stringResource(id = R.string.submit))
+            }
         }
     }
 }
